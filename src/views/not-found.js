@@ -10,7 +10,7 @@ const NotFound = (props) => {
       </Helmet>
       {/* Add the image here */}
       <img
-        src="/public/cubeswap-200h.png"
+        src="/cubeswap-200h.png"
         alt="Cubeswap Logo"
         className="not-found-logo"
       />
