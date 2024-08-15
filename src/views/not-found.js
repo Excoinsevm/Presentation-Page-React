@@ -1,7 +1,5 @@
 import React from 'react'
-
 import { Helmet } from 'react-helmet'
-
 import './not-found.css'
 
 const NotFound = (props) => {
@@ -10,6 +8,12 @@ const NotFound = (props) => {
       <Helmet>
         <title>404 - Not Found</title>
       </Helmet>
+      {/* Add the image here */}
+      <img
+        src="/public/cubeswap-200h.png"
+        alt="Cubeswap Logo"
+        className="not-found-logo"
+      />
       <h3>OOPS! PAGE NOT FOUND</h3>
       <div className="not-found-container2">
         <h1 className="not-found-text2">404</h1>
