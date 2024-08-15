@@ -6,7 +6,15 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  text-align: center; /* Center text alignment */
 }
+
+.not-found-logo {
+  width: auto;
+  height: 200px; /* Adjust the height of the logo if needed */
+  margin-bottom: 20px; /* Space between the logo and the heading */
+}
+
 .not-found-container2 {
   display: flex;
   position: relative;
@@ -14,14 +22,16 @@
   flex-direction: column;
   justify-content: center;
 }
+
 .not-found-text2 {
   color: rgb(38, 38, 38);
-  font-size: 252px;
+  font-size: 200px; /* Reduced from 252px to 200px */
   margin-top: -20px;
   font-weight: 900;
   margin-bottom: -20px;
-  letter-spacing: -20px;
+  letter-spacing: -15px; /* Adjusted letter spacing */
 }
+
 .not-found-container3 {
   width: 421px;
   display: flex;
@@ -29,6 +39,7 @@
   flex-direction: column;
   justify-content: center;
 }
+
 .not-found-text3 {
   text-align: center;
   font-weight: 400;
