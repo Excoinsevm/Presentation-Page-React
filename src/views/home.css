@@ -204,6 +204,7 @@
 .home-text10 {
   color: var(--dl-color-gray-500);
   margin-bottom: var(--dl-space-space-tripleunit);
+  font-size: calc(1rem * 0.9);
 }
 .home-hero {
   width: 100%;
