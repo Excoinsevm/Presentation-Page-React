@@ -63,8 +63,8 @@ const Home = (props) => {
             <div className="home-mid">
               <div className="home-links-container2">
                 <span className="home-link14 Anchor">features</span>
-                <a href="#services" className="home-link15 Anchor">
-                  services
+                <a href="/presale" className="home-link15 Anchor">
+                  Presale
                 </a>
                 <a href="#about-us" className="home-link16 Anchor">
                   About Us
